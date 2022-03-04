@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 2em;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: 'Caesar Dressing', cursive;
+  color: #575555;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-family: 'Caesar Dressing', cursive;
+  color: #575555;
+}
+
+button, input {
+  font-family: 'Caesar Dressing', cursive;
+  background-color: #faefd2;
+  color: #f76c6c;
+  border: 2px solid #faefd2;
+  border-radius: 6px;
+  padding: 7px 15px;
+}
+
+.add-member {
+  background-color: #f7a6a6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 15px;
+  max-width: 50%;
+  border-radius: 8px;
+}
+
+.add-member img {
+  padding: 50px;
+  width: 100%;
+  max-width: 310px;
+}
+
+.new-member-form {
+  margin: 2em 0 3em 0;
+  text-align: center;
+}
+
+.member-list {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.member-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 0.25em 0;
+  flex: 0 0 33.3333%;
+  font-family: 'Caesar Dressing', cursive;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  margin: 0;
+}
+
